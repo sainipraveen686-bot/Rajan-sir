@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert Coaching Centre | Rajan Sir</title>
+    <style>
+        :root {
+            --primary: #003366;
+            --secondary: #25d366; /* WhatsApp Green */
+            --accent: #ffcc00; /* Gold */
+            --light: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            color: #333;
+            background-color: var(--light);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,51,102,0.85), rgba(0,51,102,0.85)), 
+                        url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .btn-call {
+            background: var(--accent);
+            color: #000;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 50px;
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 1.1rem;
+            transition: 0.3s;
+        }
+
+        .btn-call:hover {
+            transform: scale(1.05);
+            background: #e6b800;
+        }
+
+        /* Stream Tags */
+        .stream-tag {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            margin: 5px;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background: #001a33;
+            color: white;
+            padding: 40px 5%;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--secondary);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="https://wa.me/916267087265" class="whatsapp-float" target="_blank">
+        <span>Chat on WhatsApp</span>
+    </a>
+
+    <header class="hero">
+        <h1 style="font-size: 2.5rem; margin-bottom: 10px;">Expert Coaching Centre</h1>
+        <p style="font-size: 1.3rem;">Guided by: <strong>Rajan Sir</strong></p>
+        <p>Classes: 4th, 10th, 11th & 12th</p>
+        <a href="tel:6267087265" class="btn-call"> Call Now: 6267087265</a>
+    </header>
+
+    <div style="padding: 50px 5%; text-align: center; background: white;">
+        <h2>Hamari Visheshtha (Features)</h2>
+        <p>Science, Commerce, aur Arts ke liye behetarin batches.</p>
+        <div style="margin-top: 20px;">
+            <div class="stream-tag">Science</div>
+            <div class="stream-tag">Commerce</div>
+            <div class="stream-tag">Arts</div>
+        </div>
+    </div>
+
+    <footer>
+        <h2>Sampark Karein</h2>
+        <p><strong>Expert Coaching Centre</strong></p>
+        <p>Director: Rajan Sir</p>
+        <p> Phone: 6267087265</p>
+        <p> Address: [Apna Pura Pata Yahan Type Karein]</p>
+        <br>
+        <p style="font-size: 0.8rem; opacity: 0.6;">&copy; 2024 Expert Coaching Centre. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html
+
